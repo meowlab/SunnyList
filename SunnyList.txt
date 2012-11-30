@@ -1,0 +1,67 @@
+﻿[Adblock Plus]
+!  Checksum: J0MUL4yoSgxtQCtP9mMdgw
+
+!  SunnyList
+!  Last modified: 1 Dec 2012 01:20 UTC +08:00
+!  Expires: 5 days (update frequency)
+
+!广告供应商JS封杀
+|http://cbjs.baidu.com/js/m.js$script
+||eiv.baidu.com/other/ff.js$script
+http://pos.baidu.com/ecom?di=*&tm=*&fn=*&baidu_id=$script
+
+!土豆网广告
+/pos?act=*dk=*pt=*de=*
+/uploads/materials/*/*/*/*.swf
+|http://*/f4v/*/*.f4v?*si=*vidtp=*
+www.tudou.com##div#tb_cmt_ad
+|http://at-img*.tdimg.com/sales/material/*/*/*.*
+http://static.atm.youku.com/Tudou*/*/*/*/*.jpg
+http://static.atm.youku.com/Tudou*/*/*/*/*.swf
+
+!优酷网广告
+http://f.youku.com/player/getFlvPath/fileid/*
+
+!人人网广告
+renren.com##div[id^="ad"]
+
+!QQ影视广告
+|http://adslvfile.qq.com/*
+
+!Ku6广告
+|http://pic.snyu.com/static/*/*/*/*/*.swf?slotid=*
+|http://pp2.wlsun.com.cn/imgs/materials/*/*/*/*.flv
+|http://pic.snyu.com/sdk5/ads/pptvplugin.swf*
+|http://dwtracking.sdo.com/ku6.gif*
+|http://pic.snyu.com/sdk*/*/Main.swf*
+|http://pic.snyu.com/sdk*/ads/*
+|http://pic.snyu.com/uploads/ad/*
+
+!爱奇艺广告
+/videos2/other/*/*.f4v|$object-subrequest,domain=iqiyi.com
+/videos2/other/*/*.f4v?&retry=*|$object-subrequest,domain=iqiyi.com
+
+!cnBeta广告
+cnbeta.com###comad
+cnbeta.com###userInfo
+cnbeta.com##div#feedback>center>a
+cnbeta.com##div#feedback>center>object[width="300"]
+cnbeta.com##div#news>a
+cnbeta.com##div#news>br>object
+||img.cnbeta.com/*300.*$image,object
+||img.cnbeta.com/*576.*$image,object
+||img.cnbeta.com/25080-1.gif$image
+
+!豆丁网广告
+|http://pics.wanlibo.com/upload/recommend/*/*/*/*/*/*.*
+
+!人民网广告
+||coc.pagebelt.com/coc/*//media/normal_outer.swf$object
+||static.acs86.com/a2.js$script,domain=people.com.cn
+
+!520听书网播放器广告
+www.520tingshu.com##.player>center
+
+
+!EasyList误杀列表
+@@http://www.guao.hk/wp-content/uploads/2012/01/adsense_toolbar-550x382.jpg$image
