@@ -1,9 +1,9 @@
 ﻿[Adblock Plus]
-!  Checksum: OzlFOtPWYf7R5vWtFszGPQ
+!  Checksum: AaAf6LcYVhTs82LwN+/yyw
 
-!  SunnyList
-!  Last modified: 29 Dec 2012 15:38 UTC +08:00
-!  Expires: 5 days (update frequency)
+! SunnyList
+! Last modified: 30 Dec 2012 17:25 UTC +08:00
+! Expires: 5 days (update frequency)
 
 !广告供应商JS封杀
 |http://cbjs.baidu.com/js/m.js$script
@@ -47,6 +47,7 @@ cnbeta.com###comad
 cnbeta.com###userInfo
 cnbeta.com##div#feedback>center>a
 cnbeta.com##div#feedback>center>object[width="300"]
+cnbeta.com##div#feedback>center>embed[width="300"][height="250"]
 cnbeta.com##div#news>a
 cnbeta.com##div#news>br>object
 ||img.cnbeta.com/*300.*$image,object
