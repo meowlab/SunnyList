@@ -1,8 +1,8 @@
 ﻿[Adblock Plus]
-!  Checksum: AaAf6LcYVhTs82LwN+/yyw
+!  Checksum: a5HovS+IJ/rSfkayRifZvA
 
 ! SunnyList
-! Last modified: 30 Dec 2012 17:25 UTC +08:00
+! Last modified: 12 Jan 2013 02:15 UTC +08:00
 ! Expires: 5 days (update frequency)
 
 !广告供应商JS封杀
@@ -41,6 +41,7 @@ renren.com##div[id^="ad"]
 /videos2/other/*/*.f4v$object-subrequest
 /videos2/other/*/*.f4v?&retry=*$object-subrequest
 |http://www.iqiyi.com/player/*/pause.swf$object-subrequest
+http://www.iqiyi.com/player/*/Shanghai.swf
 
 !cnBeta广告
 cnbeta.com###comad
